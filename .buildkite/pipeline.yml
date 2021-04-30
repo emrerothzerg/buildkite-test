@@ -4,7 +4,7 @@ steps:
     plugins:
       - docker-compose#v3.7.0:
           run: app
-          config: .docker/docker-compose.yml
+          config: docker-compose.yml
 
   - wait
 
