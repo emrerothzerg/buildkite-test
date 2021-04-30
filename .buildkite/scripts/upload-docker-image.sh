@@ -8,4 +8,4 @@ aws ecr get-login-password \
 
 docker build -t 071035219568.dkr.ecr.us-east-1.amazonaws.com/emre-buildkite-test .
 
-docker push
+docker push 071035219568.dkr.ecr.us-east-1.amazonaws.com/emre-buildkite-test
