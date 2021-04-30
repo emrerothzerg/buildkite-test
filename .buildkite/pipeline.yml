@@ -1,6 +1,9 @@
 steps:
   - label: "Install packages"
     command: yarn & yarn test
+    plugins:
+      - docker-compose#v3.7.0:
+          run: app
 
   - wait
 
