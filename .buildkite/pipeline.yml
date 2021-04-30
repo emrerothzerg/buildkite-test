@@ -1,10 +1,8 @@
 steps:
-  - label: "Build"
+  - label: "Install packages"
     command: yarn
 
-  - wait
-
-  - label: "Test"
+  - label: "Test JS codes"
     command: yarn test
 
   - wait
