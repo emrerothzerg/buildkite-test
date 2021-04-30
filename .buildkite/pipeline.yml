@@ -8,5 +8,11 @@ steps:
 
   - wait
 
-  - label: "Create & upload docker image to AWS ECR"
-    command: sh .buildkite/scripts/upload-docker-image.sh
+  - label: "test 1"
+    command: sh .buildkite/scripts/test-1.sh
+
+  - label: "test 2"
+    command: sh .buildkite/scripts/test-2.sh
+
+  - label: "test 3"
+    command: sh .buildkite/scripts/test-2.sh
