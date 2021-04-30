@@ -1,8 +1,13 @@
 steps:
   - label: "Build"
-    command: npm run test
+    command: yarn
 
   - wait
 
-  - label: "Create & upload docker image to "
+  - label: "Test"
+    command: yarn test
+
+  - wait
+
+  - label: "Create & upload docker image to AWS ECR"
     command: sh .buildkite/scripts/upload-docker-image.sh

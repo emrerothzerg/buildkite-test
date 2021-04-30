@@ -1,1 +1,3 @@
-console.log("emre says hi");
+import nameFix from "./functions/name.js";
+
+console.log(nameFix("EMRE"));
