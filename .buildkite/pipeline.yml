@@ -1,0 +1,8 @@
+steps:
+  - label: "Build"
+    command: npm run test
+
+  - wait
+
+  - label: "Create & upload docker image to "
+    command: sh .buildkite/scripts/upload-docker-image.sh
