@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
