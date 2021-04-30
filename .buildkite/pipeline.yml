@@ -11,8 +11,14 @@ steps:
   - label: "test 1"
     command: sh .buildkite/scripts/test-1.sh
 
+  - block: "Activate Test 2"
+    branches: "master"
+
   - label: "test 2"
     command: sh .buildkite/scripts/test-2.sh
+
+  - block: "Activate Test 3"
+    branches: "master"
 
   - label: "test 3"
     command: sh .buildkite/scripts/test-2.sh
