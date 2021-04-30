@@ -1,9 +1,9 @@
 steps:
   - label: "Install packages"
-    command: yarn
+    command: npm install
 
   - label: "Test JS codes"
-    command: yarn test
+    command: npm run test
 
   - wait
 
