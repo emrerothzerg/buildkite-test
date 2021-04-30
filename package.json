@@ -5,9 +5,8 @@
   "repository": "git@github.com:emrerothzerg/buildkite-test.git",
   "author": "Emre Rothzerg <hello@emrerothzerg.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
